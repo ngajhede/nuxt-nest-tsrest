@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Posts</p>
+    <div><span>Posts</span> - <nuxt-link to="/create">Create post</nuxt-link></div>
     <div v-if="isLoading">Loading...</div>
     <div v-if="error">Error: {{ error }}</div>
 
